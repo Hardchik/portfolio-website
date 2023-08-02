@@ -10,17 +10,21 @@ export default function Home() {
           <div>ORCiD</div>
         </div>
         <div className="w-full flex max-[1000px]:justify-center">
-          <div className="w-full flex flex-col">
+          <div className="w-full flex flex-col max-[1000px]:items-center">
             <span className="font-bold text-5xl">About Me</span>
-            <div className="w-[70%]">
-              <div className="flex">
+            <div className="w-[70%] max-[1000px]:w-full">
+              <div className="flex items-center">
                 <p>
                   Here is Hardik Chhabra. I am a senior majoring in Electronics
                   and Communication Engineering at Netaji Subhas University of
                   Technology. I am extremely fortunate to be advised by Prof.
                   K.P.S. Rana and Dr. Aarti Jain. Here is my Resume.
                 </p>
-                <img className="" src="" alt="..." />
+                <img
+                  className="w-48 h-48 p-5"
+                  src="https://media.licdn.com/dms/image/C4D03AQGJlZ1CWd5cvg/profile-displayphoto-shrink_800_800/0/1641390433017?e=1696464000&v=beta&t=vahmEr7MJuFPVxE5051heDi_q7oL6Y4mCUrFPMmoBDc"
+                  alt="..."
+                />
               </div>
               <hr />
               <div className="mt-12">

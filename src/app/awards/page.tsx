@@ -12,7 +12,7 @@ const Page: NextPage = () => {
           <div>ORCiD</div>
         </div>
         <div className="w-full">
-          <div className="w-[70%]">
+          <div className="w-[70%] max-[1000px]:w-full">
             <div className="mt-12">
               <p className="text-3xl font-semibold">Scholarships</p>
               <ul className="pl-5 pt-2 list-[square]">
