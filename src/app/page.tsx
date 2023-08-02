@@ -28,34 +28,30 @@ export default function Home() {
                 <p>
                   <span className="font-semibold">
                     <span className="text-red-500">[Highlight]</span> I am
-                    looking for PhD to start in 2025 Fall. <br />
+                    looking for MS to start in 2024 Fall. <br />
                     Contact me if you have any leads! <br />
                   </span>
                   <ul className="pl-5 pt-2 list-[square]">
                     <li>
                       {" "}
                       <span className="font-semibold">
-                        Sep 2020 - June 2024:
+                        June 2020 - May 2024:
                       </span>{" "}
-                      Fuzhou University (BEng)
+                      Netaji Subhas University of Technology (BEng)
                     </li>
                     <li>
                       <span className="font-semibold">
-                        Sep 2020 - May 2024:
+                        May 2023 - Feb 2024:
                       </span>{" "}
-                      Maynooth University (BSc)
+                      Indian Institute of Technology (IIT) Delhi (Intern)
                     </li>
                     <li>
                       <span className="font-semibold">
-                        June 2022 - Nov 2022:
+                        June 2022 - Dec 2022:
                       </span>{" "}
-                      Cambridge University (Intern)
+                      Netaji Subhas University of Technology (Intern)
                     </li>
-                    <li>
-                      Expect to apply for a one-year MSc in the UK and will
-                      graduate in 2025. Looking for PhD position after MSc!
-                      Online talk with me
-                    </li>
+                    Looking for MS admissions! Online talk with me.
                   </ul>
                 </p>
               </div>
@@ -64,17 +60,18 @@ export default function Home() {
                 <p className="text-3xl font-semibold">Research Interests</p>
                 <p>
                   <ul className="pl-5 pt-2 list-[square]">
-                    <li>Industrial IoT System</li>
-                    <li>Bluetooth Low Energy</li>
+                    <li>Electromagnetics</li>
+                    <li>Quantum Computing</li>
                     <li>Applied Machine Learning</li>
+                    <li>Communication Engineering</li>
                   </ul>
-                  My current research focuses on practical problems that
-                  artificial intelligence faces in real life. My interests are
-                  on the Machine Learning and its applications in Industrial
-                  IoT. In a word, advanced technologies like ML and IoT
-                  positively influence the life of everybody. I wish to devote
-                  my talent to this meaningful cause and bring well-being to
-                  society.
+                  My current research focuses on electronics (core) domain on
+                  which artificial intelligence can be applied. My interests are
+                  on the Machine Learning and its applications in communication
+                  domain. In a word, advanced technologies like ML and
+                  Electronics to positively influence the life of everybody. I
+                  wish to devote my talent to this meaningful cause and bring
+                  well-being to society.
                 </p>
               </div>
               <hr />
@@ -84,17 +81,18 @@ export default function Home() {
                   <ul className="pl-5 pt-2 list-[square]">
                     <li>
                       {" "}
-                      <span className="font-semibold">March 2023:</span> Happy
-                      to be awarded the XiamenAir Scholarship.
+                      <span className="font-semibold">May 2023:</span> Research
+                      Associate at Indian Institute of Technology (IIT) Delhi,
+                      advised by Prof. Monica Aggarwal
                     </li>
                     <li>
-                      <span className="font-semibold">May 2024:</span> Happy to
-                      win the Finalist Award in MCM 2023.
+                      <span className="font-semibold">Dec 2022:</span> Happy to
+                      win the special mention in International Space Challenge.
                     </li>
                     <li>
-                      <span className="font-semibold">June 2022:</span> Summer
-                      Research Intern at University of Cambridge, advised by
-                      Prof. Pietro Liò.
+                      <span className="font-semibold">June 2022:</span> Happy to
+                      secure a World Rank #8 in the prestigious CanSat
+                      Competition.
                     </li>
                   </ul>
                 </p>
