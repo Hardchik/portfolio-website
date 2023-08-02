@@ -25,77 +25,67 @@ export default function Home() {
               <hr />
               <div className="mt-12">
                 <p className="text-3xl font-semibold">Academic Background</p>
-                <p>
-                  <span className="font-semibold">
-                    <span className="text-red-500">[Highlight]</span> I am
-                    looking for MS to start in 2024 Fall. <br />
-                    Contact me if you have any leads! <br />
-                  </span>
-                  <ul className="pl-5 pt-2 list-[square]">
-                    <li>
-                      {" "}
-                      <span className="font-semibold">
-                        June 2020 - May 2024:
-                      </span>{" "}
-                      Netaji Subhas University of Technology (BEng)
-                    </li>
-                    <li>
-                      <span className="font-semibold">
-                        May 2023 - Feb 2024:
-                      </span>{" "}
-                      Indian Institute of Technology (IIT) Delhi (Intern)
-                    </li>
-                    <li>
-                      <span className="font-semibold">
-                        June 2022 - Dec 2022:
-                      </span>{" "}
-                      Netaji Subhas University of Technology (Intern)
-                    </li>
-                    Looking for MS admissions! Online talk with me.
-                  </ul>
-                </p>
+                <span className="font-semibold">
+                  <span className="text-red-500">[Highlight]</span> I am looking
+                  for MS to start in 2024 Fall. <br />
+                  Contact me if you have any leads! <br />
+                </span>
+                <ul className="pl-5 pt-2 list-[square]">
+                  <li>
+                    {" "}
+                    <span className="font-semibold">
+                      June 2020 - May 2024:
+                    </span>{" "}
+                    Netaji Subhas University of Technology (BEng)
+                  </li>
+                  <li>
+                    <span className="font-semibold">May 2023 - Feb 2024:</span>{" "}
+                    Indian Institute of Technology (IIT) Delhi (Intern)
+                  </li>
+                  <li>
+                    <span className="font-semibold">June 2022 - Dec 2022:</span>{" "}
+                    Netaji Subhas University of Technology (Intern)
+                  </li>
+                  Looking for MS admissions! Online talk with me.
+                </ul>
               </div>
               <hr />
               <div className="mt-12">
                 <p className="text-3xl font-semibold">Research Interests</p>
-                <p>
-                  <ul className="pl-5 pt-2 list-[square]">
-                    <li>Electromagnetics</li>
-                    <li>Quantum Computing</li>
-                    <li>Applied Machine Learning</li>
-                    <li>Communication Engineering</li>
-                  </ul>
-                  My current research focuses on electronics (core) domain on
-                  which artificial intelligence can be applied. My interests are
-                  on the Machine Learning and its applications in communication
-                  domain. In a word, advanced technologies like ML and
-                  Electronics to positively influence the life of everybody. I
-                  wish to devote my talent to this meaningful cause and bring
-                  well-being to society.
-                </p>
+                <ul className="pl-5 pt-2 list-[square]">
+                  <li>Electromagnetics</li>
+                  <li>Quantum Computing</li>
+                  <li>Applied Machine Learning</li>
+                  <li>Communication Engineering</li>
+                </ul>
+                My current research focuses on electronics (core) domain on
+                which artificial intelligence can be applied. My interests are
+                on the Machine Learning and its applications in communication
+                domain. In a word, advanced technologies like ML and Electronics
+                to positively influence the life of everybody. I wish to devote
+                my talent to this meaningful cause and bring well-being to
+                society.
               </div>
               <hr />
               <div className="mt-12">
                 <p className="text-3xl font-semibold">News & Updates</p>
-                <p>
-                  <ul className="pl-5 pt-2 list-[square]">
-                    <li>
-                      {" "}
-                      <span className="font-semibold">May 2023:</span> Research
-                      Associate at Indian Institute of Technology (IIT) Delhi,
-                      advised by Prof. Monica Aggarwal
-                    </li>
-                    <li>
-                      <span className="font-semibold">Dec 2022:</span> Happy to
-                      win the special mention in International Space Challenge.
-                    </li>
-                    <li>
-                      <span className="font-semibold">June 2022:</span> Happy to
-                      secure a World Rank #8 in the prestigious CanSat
-                      Competition.
-                    </li>
-                  </ul>
-                </p>
+                <ul className="pl-5 pt-2 list-[square]">
+                  <li>
+                    {" "}
+                    <span className="font-semibold">May 2023:</span> Research
+                    Associate at Indian Institute of Technology (IIT) Delhi,
+                    advised by Prof. Monica Aggarwal
+                  </li>
+                  <li>
+                    <span className="font-semibold">Dec 2022:</span> Happy to
+                    win the special mention in International Space Challenge.
+                  </li>
+                  <li>
+                    <span className="font-semibold">June 2022:</span> Happy to
+                    secure a World Rank #8 in the prestigious CanSat
+                    Competition.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ import packageJson from "../../../package.json";
 import { useRouter } from "next/navigation";
 
 const url =
-  "https://te-bucket-test.s3.ap-south-1.amazonaws.com/Hardik+Chhabra-Resume+(New).pdf";
+  "https://te-bucket-test.s3.ap-south-1.amazonaws.com/Hardik_Chhabra_resume.pdf";
 
 export default function Resume() {
   const navigate = useRouter();
