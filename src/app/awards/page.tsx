@@ -83,15 +83,36 @@ const Page: NextPage = () => {
                 <li>
                   {" "}
                   <span className="font-semibold">Dec 2022:</span> Happy to win
-                  the special mention in International Space Challenge.
+                  the special mention in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://spacefaculty.asia/isc-2024/"
+                  >
+                    International Space Challenge
+                  </Link>
+                  .
                 </li>
                 <li>
                   <span className="font-semibold">June 2022:</span> Happy to
-                  secure a World Rank #8 in the prestigious CanSat Competition.
+                  secure a World Rank #8 in the prestigious{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://www.cansatcompetition.com/"
+                  >
+                    CanSat Competition
+                  </Link>
+                  .
                 </li>
                 <li>
                   <span className="font-semibold">July 2021:</span> Happy to to
-                  be finalist in the prestigious University Rover Challenge.
+                  be finalist in the prestigious{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://urc.marssociety.org/home"
+                  >
+                    University Rover Challenge
+                  </Link>
+                  .
                 </li>
               </ul>
             </div>
@@ -102,21 +123,44 @@ const Page: NextPage = () => {
                 <li>
                   {" "}
                   <span className="font-semibold">Jan 2022:</span> Silver Honors
-                  in International Youth Math Challenge
+                  in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://iymc.info/en/"
+                  >
+                    International Youth Math Challenge
+                  </Link>
                 </li>
                 <li>
                   <span className="font-semibold">Aug 2021:</span> Gold Honors
-                  in International Astronomy and Astrophysics Competition
+                  in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://iaac.space/en/"
+                  >
+                    International Astronomy and Astrophysics Competition
+                  </Link>
                 </li>
                 <li>
                   <span className="font-semibold">Apr 2020:</span> Bronze Medal
-                  at Asia-Pacific Region in International Mathematical Kangaroo
-                  Competition
+                  at Asia-Pacific Region in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://www.mathkangaroo.in/"
+                  >
+                    International Mathematical Kangaroo Competition
+                  </Link>
                 </li>
                 <li>
                   <span className="font-semibold">Dec 2019:</span> Second
-                  Position in National Science Fair, hosted by Government of
-                  India
+                  Position in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://www.irisnationalfair.org/"
+                  >
+                    National Science Fair
+                  </Link>
+                  , hosted by Government of India
                 </li>
                 <li>
                   <span className="font-semibold">Nov 2019:</span> Outstanding
@@ -131,19 +175,46 @@ const Page: NextPage = () => {
                 <li>
                   {" "}
                   <span className="font-semibold">Oct 2022:</span> Vice
-                  President of Computer Society of India, NSUT Student Branch
+                  President of{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://www.linkedin.com/company/csi-nsit/about/"
+                  >
+                    Computer Society of India
+                  </Link>
+                  , NSUT Student Branch
                 </li>
                 <li>
                   <span className="font-semibold">May 2022:</span> Served as a
-                  webmaster in IEEE NSUT Student Branch
+                  webmaster in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://ieeensut.com/"
+                  >
+                    IEEE NSUT
+                  </Link>{" "}
+                  Student Branch
                 </li>
                 <li>
                   <span className="font-semibold">Feb 2022:</span> Co-Software
-                  Lead in ARES Robotics Society of NSUT
+                  Lead in{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://ares-robotics-nsut.vercel.app/"
+                  >
+                    ARES Robotics
+                  </Link>{" "}
+                  Society of NSUT
                 </li>
                 <li>
                   <span className="font-semibold">Jan 2022:</span> Student
-                  volunteer and host of IEEE Delhi Conference
+                  volunteer and host of{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://www.delcon2022.com/"
+                  >
+                    IEEE Delhi Conference
+                  </Link>
                 </li>
               </ul>
             </div>

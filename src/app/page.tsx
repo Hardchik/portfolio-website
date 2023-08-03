@@ -57,8 +57,25 @@ export default function Home() {
                 <p>
                   Here is Hardik Chhabra. I am a senior majoring in Electronics
                   and Communication Engineering at Netaji Subhas University of
-                  Technology. I am extremely fortunate to be advised by Prof.
-                  K.P.S. Rana and Dr. Aarti Jain. Here is my Resume.
+                  Technology. I am extremely fortunate to be advised by{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://sites.google.com/site/kpsrana1/home"
+                  >
+                    Prof. K.P.S. Rana
+                  </Link>{" "}
+                  and{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://scholar.google.co.in/citations?hl=en&user=emqfUEAAAAAJ"
+                  >
+                    Dr. Aarti Jain
+                  </Link>
+                  . Here is my{" "}
+                  <Link href="/resume" className="border-b hover:border-black">
+                    resume
+                  </Link>
+                  .
                 </p>
                 <img
                   className="w-48 h-48 p-5"
@@ -122,12 +139,25 @@ export default function Home() {
                   </li>
                   <li>
                     <span className="font-semibold">Dec 2022:</span> Happy to
-                    win the special mention in International Space Challenge.
+                    win the special mention in{" "}
+                    <Link
+                      className="border-b hover:border-black"
+                      href="https://spacefaculty.asia/isc-2024/"
+                    >
+                      International Space Challenge
+                    </Link>
+                    .
                   </li>
                   <li>
                     <span className="font-semibold">June 2022:</span> Happy to
-                    secure a World Rank #8 in the prestigious CanSat
-                    Competition.
+                    secure a World Rank #8 in the prestigious{" "}
+                    <Link
+                      className="border-b hover:border-black"
+                      href="https://www.cansatcompetition.com/"
+                    >
+                      CanSat Competition
+                    </Link>
+                    .
                   </li>
                 </ul>
               </div>

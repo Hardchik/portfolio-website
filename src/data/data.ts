@@ -30,7 +30,7 @@ export const conference = [
 export const journal = [
   {
     title: "Helical Structured Optical Fiber",
-    authors: "Hardik Chhabra, Nipun Raj, K.P.S. Rana",
+    authors: "Hardik Chhabra, Nipun Raj, K.P.S. Rana, Vineet Kumar",
     description:
       "A fiber optics with a helical design that has different density distribution (varying refractive index). Geometry and probability calculations, along with ideas to reduce transmission losses, are presented in this study.",
     doi: "10.35248/2379-1764.23.11.399",
@@ -79,8 +79,68 @@ export const underReview = [
   },
   {
     title: "Collsion Radar Antenna Array Design using machine learning",
-    authors: "Hardik Chhabra",
-    description: "",
+    authors: "Hardik Chhabra, Anubhav Chauhan",
+    description:
+      "Introduced a novel methodology for designing optimized collision avoidance antenna arrays using machine learning.",
     journalName: "MDPI Journal on Sensors",
+  },
+];
+
+export const startup = [
+  {
+    name: "Topper's Edge",
+    position: "CTO",
+    location: "Delhi",
+    date: "April 2023-Present",
+    description:
+      "I am currently serving as a CTO of this newly founded firm. This firm is aims to cater the small educational institutes i.e., B2B. We provide a technical solution to educational institutes to automate their management systems. We are building a community of experts in their subject domain to engage doubts with the help of Generative AI-assisted features. This community works on a credit-based system.",
+    link: "https://toppersedge.co.in/",
+  },
+  {
+    name: "Diagnoos",
+    position: "Co-founder",
+    location: "Delhi",
+    date: "Jan 2023-Present",
+    description:
+      "A startup concentrated on the conjunction of medical and technical domain. Me along with a team of four individuals have founded this firm. We have partnered with the State Health Department to provide technical solutions for government hospitals.",
+    link: "https://beta-landing-diagnoos.web.app/",
+  },
+];
+
+export const UProjects = [
+  {
+    name: "Digital Mentor",
+    position: "Team Lead",
+    location: "Delhi",
+    date: "Aug 2023-Present",
+    description:
+      "A university funded project ($2500) for social outreach. We have created a platform for students to learn python programming and inculcate in industry-level projects to help them with a future career path.",
+    link: "#",
+  },
+  {
+    name: "CanSat Competition",
+    position: "Software Member",
+    location: "Delhi",
+    date: "Sept 2021-June 2022",
+    description:
+      "A prestigious competition by NASA and various other known institutions to build a can-sized satellite. The data from the mission is analyzed and visualized by self-programmed software. Our team secured World Rank 8 in the finals of this competition.",
+    link: "https://github.com/Hardchik/Satellite-Control-System",
+  },
+];
+
+export const openSource = [
+  {
+    name: "Optimization Techniques Repository",
+    description:
+      "A github repository containing 10+ implemented optimization algorithms.",
+    date: "May 2023-June 2023",
+    link: "https://github.com/Hardchik/Optimization-Techniques",
+  },
+  {
+    name: "Machine Learning Repository",
+    description:
+      "A one stop solution for machine learning geeks. A github repository consisting of 10+ machine learning algorithms and 30+ projects.",
+    date: "Jan 2022-March 2022",
+    link: "https://github.com/Hardchik/Machine-Learning-Codes",
   },
 ];
