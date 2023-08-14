@@ -1,14 +1,107 @@
 export const patents = [
   {
+    application: "",
     title: "DEHEC Suspension Bridge",
     description: `Mathematical Model/Design of a Bridge with improvised and self-designed Truss. Award winning project, was chosen to represent India in ISEF. Imparted theoretical mathematics in the actual structure of bridge to raise it's security factor by 100.`,
     region: "India",
+    image: "",
   },
   {
+    application: "",
     title: "Di-interface Glass-Slit Experiment",
     description:
       "A patent-pending project to study the nature of light via experimentation and self-derived mathematical expressions. To study the properties of light from celestial objects and analysing/visualizing the data. A software/GUI was created to simulate the values of the data.",
     region: "India",
+    image: "",
+  },
+];
+
+export const experience = [
+  {
+    name: "Mercor.io",
+    image: "https://mercor.io/logo.png",
+    role: "Software Developer Intern",
+    location: "Remote",
+    date: "March 2023-May 2023",
+    description: "",
+    link: "https://mercor.io/",
+  },
+  {
+    name: "Xplain Labs",
+    image:
+      "https://media.licdn.com/dms/image/D4E0BAQGcNGIS_YTqIQ/company-logo_200_200/0/1686197477892?e=1700092800&v=beta&t=beBc3rBEEEVmSOBUgQpF1sZFisAp2zfQwTNfsZQ3PjE",
+    role: "Frontend Developer (Contract)",
+    location: "Remote",
+    date: "Dec 2022-Feb 2023",
+    description: "",
+    link: "https://www.linkedin.com/company/xplain-labs/about/",
+  },
+  {
+    name: "Mployee.me",
+    image:
+      "https://www.mployee.me/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FMployee.me%20White%20Logo.680b3844.ico&w=3840&q=75",
+    role: "Software Developer Intern",
+    location: "Delhi",
+    date: "Dec 2021-May 2022",
+    description: "",
+    link: "https://www.mployee.me/",
+  },
+];
+
+export const university = [
+  {
+    organisation: "Team Kalpana",
+    orgLink: "https://www.instagram.com/teamkalpanansut/",
+    title: "CanSat Vice-Chair",
+    desc: "",
+    link: "https://www.instagram.com/p/CgL_sJNpNTj/?img_index=3",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/university/kalpana.JPG",
+  },
+  {
+    organisation: "CanSat Team",
+    orgLink: "https://www.instagram.com/teamkalpanansut/",
+    title: "Software Member",
+    desc: "",
+    link: "https://www.instagram.com/p/Cfk71jhlC4A/?img_index=1",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/university/kalam.JPG",
+  },
+  {
+    organisation: "ARES Robotics",
+    orgLink: "https://ares-robotics-nsut.vercel.app/",
+    title: "Software Co-Lead",
+    desc: "",
+    link: "https://www.instagram.com/p/CjaEznrORYh/?img_index=2",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/university/ares.JPG",
+  },
+  {
+    organisation: "IEEE NSUT",
+    orgLink: "https://www.ieeensut.com/",
+    title: "Webmaster",
+    desc: "",
+    link: "https://www.instagram.com/p/CetDjCsqJc3/?img_index=5",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/university/ieee.JPG",
+  },
+  {
+    organisation: "Nakshatra NSUT",
+    orgLink: "https://nakshatransut.web.app/",
+    title: "Director of Maths and Astronomy",
+    desc: "",
+    link: "https://www.instagram.com/p/CfzI1jtB09u/?img_index=4",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/university/nakshatra.JPG",
+  },
+  {
+    organisation: "CodeChef NSUT",
+    orgLink: "https://www.instagram.com/codechef.nsut/",
+    title: "Co-Lead Machine Learning",
+    desc: "",
+    link: "https://www.instagram.com/p/CeVs91WFBjY/?img_index=6",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/university/codechef.JPG",
   },
 ];
 
@@ -24,6 +117,7 @@ export const conference = [
       "14th International Conference on Computing, Communication and Networking Technologies (ICCCNT)",
     link: "",
     pdf: "",
+    image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/conf1.JPG",
   },
 ];
 
@@ -37,6 +131,7 @@ export const journal = [
     journalName: "Proceedings A of Royal Society Journals",
     link: "",
     pdf: "",
+    image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/rspa.jpg",
   },
   {
     title:
@@ -48,6 +143,7 @@ export const journal = [
     journalName: "Journal of Advanced Medicine and Biology",
     link: "",
     pdf: "",
+    image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/ATBM.jpg",
   },
   {
     title: "Effects of COVID-19 Lockdowns on Albedo in Delhi",
@@ -58,6 +154,7 @@ export const journal = [
     journalName: "Preprint",
     link: "",
     pdf: "",
+    image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/rs.jpg",
   },
 ];
 

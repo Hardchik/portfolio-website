@@ -49,13 +49,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="w-full flex max-[1000px]:justify-center">
           <div className="w-full flex flex-col max-[1000px]:items-center">
             <span className="font-bold text-5xl">About Me</span>
             <div className="w-[70%] max-[1000px]:w-full">
               <div className="flex items-center">
                 <p>
-                  Here is Hardik Chhabra. I am a senior majoring in Electronics
+                  This is Hardik Chhabra. I am a senior majoring in Electronics
                   and Communication Engineering at Netaji Subhas University of
                   Technology. I am extremely fortunate to be advised by{" "}
                   <Link
@@ -84,6 +85,7 @@ export default function Home() {
                 />
               </div>
               <hr />
+
               <div className="mt-12">
                 <p className="text-3xl font-semibold">Academic Background</p>
                 <span className="font-semibold">
@@ -107,10 +109,15 @@ export default function Home() {
                     <span className="font-semibold">June 2022 - Dec 2022:</span>{" "}
                     Netaji Subhas University of Technology (Intern)
                   </li>
-                  Looking for MS admissions! Online talk with me.
+                  Looking for MS admissions!{" "}
+                  <Link className="border-b hover:border-black" href="#contact">
+                    Contact me
+                  </Link>
+                  .
                 </ul>
               </div>
               <hr />
+
               <div className="mt-12">
                 <p className="text-3xl font-semibold">Research Interests</p>
                 <ul className="pl-5 pt-2 list-[square]">
@@ -128,6 +135,7 @@ export default function Home() {
                 society.
               </div>
               <hr />
+
               <div className="mt-12">
                 <p className="text-3xl font-semibold">News & Updates</p>
                 <ul className="pl-5 pt-2 list-[square]">
@@ -160,6 +168,27 @@ export default function Home() {
                     .
                   </li>
                 </ul>
+              </div>
+              <hr />
+
+              <div className="mt-12">
+                <p id="contact" className="text-3xl font-semibold">
+                  Contact Me
+                </p>
+                <div className="flex flex-col gap-1 justify-start">
+                  <input
+                    placeholder="Your email"
+                    className="px-1 w-full md:w-[70%] lg:w-[60%] xl:w-[40%] border border-black"
+                    type="email"
+                  />
+                  <textarea
+                    className="px-1 w-full md:w-[70%] lg:w-[60%] xl:w-[40%] border border-black"
+                    placeholder="Your messsage"
+                  />
+                  <button className="text-white w-full md:w-[70%] lg:w-[60%] xl:w-[40%] border border-black bg-black hover:text-black hover:bg-white">
+                    Submit
+                  </button>
+                </div>
               </div>
             </div>
           </div>

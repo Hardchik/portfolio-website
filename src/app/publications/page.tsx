@@ -1,10 +1,11 @@
 "use client";
-import { conference, journal, patents, underReview } from "@/data/data";
+import { conference, journal, underReview } from "@/data/data";
 import { NextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaOrcid, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { classNames } from "../classNames";
 
 const Page: NextPage = () => {
   const navigate = useRouter();
@@ -54,25 +55,6 @@ const Page: NextPage = () => {
         <div className="w-full">
           <div className="w-[70%] max-[1000px]:w-full flex flex-col gap-5">
             <div className="flex flex-col gap-5">
-              <span className="text-3xl font-semibold">Patents</span>
-              <hr />
-              {patents.map((pat: (typeof patents)[0], index: number) => (
-                <div
-                  key={index}
-                  className="cursor-pointer hover:shadow-lg p-3 flex gap-5 justify-between items-center"
-                >
-                  <div>
-                    <span className="font-semibold text-xl">{pat.title}</span>
-                    <p className="text-xs">
-                      <b>Authors:</b> Hardik Chhabra
-                    </p>
-                    <p className="text-sm text-justify">{pat.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="flex flex-col gap-5">
               <span className="text-3xl font-semibold">Journals</span>
               <hr />
               {journal.map((pub: (typeof journal)[0], index: number) => (
@@ -80,6 +62,19 @@ const Page: NextPage = () => {
                   key={index}
                   className="cursor-pointer hover:shadow-lg p-3 flex gap-5 justify-between items-center"
                 >
+                  <div>
+                    <img
+                      src={pub.image}
+                      className={classNames(
+                        pub.image.includes("ATBM")
+                          ? "w-[550px] h-[170px]"
+                          : pub.image.includes("rspa")
+                          ? "w-[300px] h-[170px]"
+                          : "w-[300px] h-[130px]"
+                      )}
+                      alt="..."
+                    />
+                  </div>
                   <div>
                     <span className="font-semibold text-xl">{pub.title}</span>
                     <p className="text-md">{pub.journalName}</p>
@@ -115,6 +110,13 @@ const Page: NextPage = () => {
                   key={index}
                   className="cursor-pointer hover:shadow-lg p-3 flex gap-5 justify-between items-center"
                 >
+                  <div>
+                    <img
+                      src={conf.image}
+                      className={classNames("")}
+                      alt="..."
+                    />
+                  </div>
                   <div>
                     <span className="font-semibold text-xl">{conf.title}</span>
                     <p className="text-md">{conf.confName}</p>

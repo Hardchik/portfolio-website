@@ -45,6 +45,15 @@ const Navbar = () => {
             PUBLICATIONS
           </Link>
           <Link
+            href={"/patents"}
+            className={classNames(
+              pathname === "/patents" ? "border-black" : "border-white",
+              "border-b"
+            )}
+          >
+            PATENTS
+          </Link>
+          <Link
             href={"/projects"}
             className={classNames(
               pathname === "/projects" ? "border-black" : "border-white",
@@ -54,6 +63,15 @@ const Navbar = () => {
             PROJECTS
           </Link>
           <Link
+            href={"/experience"}
+            className={classNames(
+              pathname === "/experience" ? "border-black" : "border-white",
+              "border-b"
+            )}
+          >
+            EXPERIENCE
+          </Link>
+          <Link
             href={"/awards"}
             className={classNames(
               pathname === "/awards" ? "border-black" : "border-white",
@@ -61,6 +79,15 @@ const Navbar = () => {
             )}
           >
             AWARDS
+          </Link>
+          <Link
+            href={"/university"}
+            className={classNames(
+              pathname === "/university" ? "border-black" : "border-white",
+              "border-b"
+            )}
+          >
+            UNIVERSITY
           </Link>
           <Link href={"https://blogsbyhc.netlify.app"}>BLOGS</Link>
         </div>
@@ -131,6 +158,15 @@ const Navbar = () => {
                   PUBLICATIONS
                 </Link>
                 <Link
+                  href={"/patents"}
+                  className={classNames(
+                    pathname === "/patents" ? "font-semibold" : "",
+                    "text-xl"
+                  )}
+                >
+                  PATENTS
+                </Link>
+                <Link
                   href={"/projects"}
                   className={classNames(
                     pathname === "/projects" ? "font-semibold" : "",
@@ -140,6 +176,15 @@ const Navbar = () => {
                   PROJECTS
                 </Link>
                 <Link
+                  href={"/experience"}
+                  className={classNames(
+                    pathname === "/experience" ? "font-semibold" : "",
+                    "text-xl"
+                  )}
+                >
+                  EXPERIENCE
+                </Link>
+                <Link
                   href={"/awards"}
                   className={classNames(
                     pathname === "/awards" ? "font-semibold" : "",
@@ -147,6 +192,15 @@ const Navbar = () => {
                   )}
                 >
                   AWARDS
+                </Link>
+                <Link
+                  href={"/university"}
+                  className={classNames(
+                    pathname === "/university" ? "font-semibold" : "",
+                    "text-xl"
+                  )}
+                >
+                  UNIVERSITY
                 </Link>
                 <Link
                   className="text-xl"
