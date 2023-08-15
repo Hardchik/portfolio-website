@@ -59,15 +59,16 @@ const Page: NextPage = () => {
               {patents.map((pat: (typeof patents)[0], index: number) => (
                 <div
                   key={index}
-                  className="cursor-pointer hover:shadow-lg p-3 flex gap-5 justify-between items-center"
+                  className="cursor-pointer hover:shadow-lg p-3 flex flex-col gap-5 justify-between items-center"
                 >
                   <div>
                     <span className="font-semibold text-xl">{pat.title}</span>
                     <p className="text-xs">
-                      <b>Authors:</b> Hardik Chhabra
+                      <b>Author:</b> Hardik Chhabra
                     </p>
                     <p className="text-sm text-justify">{pat.description}</p>
                   </div>
+                  <img className="" src={pat.image} alt="..." />
                 </div>
               ))}
             </div>

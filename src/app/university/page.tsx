@@ -105,10 +105,11 @@ const Page: NextPage = () => {
                       <img className="rounded-md" src={uni.image} />
                       <div>
                         <p>
-                          <span className="font-semibold">Post:</span>{" "}
+                          <span className="font-semibold">Position:</span>{" "}
                           {uni.title}
                         </p>
                       </div>
+                      <p className="text-sm text-justify">{uni.desc}</p>
                       <div
                         onClick={() => navigate.push(uni.link)}
                         className="cursor-pointer text-blue-600 hover:text-blue-400"

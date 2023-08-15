@@ -55,7 +55,9 @@ const Page: NextPage = () => {
         <div className="w-full">
           <div className="w-[70%] max-[1000px]:w-full gap-5 flex flex-col">
             <div className="flex flex-col gap-5">
-              <span className="font-semibold text-3xl">Start Up</span>
+              <span className="font-semibold text-3xl">
+                Industry Experience
+              </span>
               <hr />
               {experience.map(
                 (start: (typeof experience)[0], index: number) => (
@@ -63,15 +65,22 @@ const Page: NextPage = () => {
                     key={index}
                     className="flex items-center gap-3 cursor-pointer hover:shadow-lg p-3"
                   >
-                    <div>
+                    <div className="hidden md:flex">
                       <img className="w-[100px]" src={start.image} />
                     </div>
                     <div className="w-full">
                       <div className="flex justify-between">
-                        <div>
-                          <span className="font-semibold text-xl">
-                            {start.name}
-                          </span>
+                        <div className="">
+                          <div className="flex gap-3 items-center">
+                            <img
+                              className="w-[60px] md:hidden"
+                              src={start.image}
+                            />
+                            <span className="font-semibold text-xl">
+                              {start.name}
+                            </span>
+                          </div>
+
                           <p className="text-xs">
                             <b>Position:</b> {start.role}
                           </p>

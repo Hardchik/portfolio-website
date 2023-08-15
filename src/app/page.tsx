@@ -64,15 +64,22 @@ export default function Home() {
                     href="https://sites.google.com/site/kpsrana1/home"
                   >
                     Prof. K.P.S. Rana
-                  </Link>{" "}
-                  and{" "}
+                  </Link>
+                  ,{" "}
+                  <Link
+                    className="border-b hover:border-black"
+                    href="https://scholar.google.co.in/citations?user=1Lo3PZwAAAAJ&hl=en"
+                  >
+                    Prof. Vineet Kumar
+                  </Link>
+                  , and{" "}
                   <Link
                     className="border-b hover:border-black"
                     href="https://scholar.google.co.in/citations?hl=en&user=emqfUEAAAAAJ"
                   >
                     Dr. Aarti Jain
                   </Link>
-                  . Here is my{" "}
+                  . This is my{" "}
                   <Link href="/resume" className="border-b hover:border-black">
                     resume
                   </Link>
