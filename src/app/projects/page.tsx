@@ -1,11 +1,10 @@
 "use client";
-import { UProjects, openSource, startup } from "@/data/data";
+import { UProjects, academicProject, openSource } from "@/data/data";
 import { NextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaOrcid, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { classNames } from "../classNames";
 
 const Page: NextPage = () => {
   const navigate = useRouter();
@@ -29,14 +28,14 @@ const Page: NextPage = () => {
               onClick={() =>
                 navigate.push("https://www.linkedin.com/in/hardik-chhabra/")
               }
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaLinkedin />
               LinkedIn
             </div>
             <div
               onClick={() => navigate.push("https://github.com/Hardchik")}
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaGithub />
               GitHub
@@ -45,7 +44,7 @@ const Page: NextPage = () => {
               onClick={() =>
                 navigate.push("https://orcid.org/0000-0003-4943-833X")
               }
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaOrcid />
               ORCiD
@@ -55,62 +54,36 @@ const Page: NextPage = () => {
         <div className="w-full">
           <div className="w-[70%] max-[1000px]:w-full gap-5 flex flex-col">
             <div className="flex flex-col gap-5">
-              <span className="font-semibold text-3xl">Start Ups</span>
+              <span className="font-semibold text-3xl">Academic Projects</span>
               <hr />
-              {startup.map((start: (typeof startup)[0], index: number) => (
-                <div key={index} className="cursor-pointer hover:shadow-lg p-3">
-                  <div>
-                    <div className="flex justify-between">
-                      <div>
-                        <div className="flex items-center gap-1">
-                          <img
-                            className={classNames(
-                              start.image.includes("dia_logo")
-                                ? "w-8"
-                                : "w-16 sm:w-24"
-                            )}
-                            src={start.image}
-                          />
-                          <span className="font-semibold text-xl">
-                            {start.name}
-                          </span>
-                        </div>
+              {academicProject.map(
+                (project: (typeof academicProject)[0], index: number) => (
+                  <div
+                    key={index}
+                    className="cursor-pointer hover:shadow-lg p-3"
+                  >
+                    <div>
+                      <span className="font-semibold text-xl">
+                        {project.name}
+                      </span>
+                      <div className="flex justify-between">
                         <p className="text-xs">
-                          <b>Position:</b> {start.position}
+                          <b>Position:</b> {project.role}
                         </p>
+                        <p className="text-xs">{project.date}</p>
                       </div>
-                      <div className="flex flex-col text-end">
-                        <p className="text-sm">{start.location}</p>
-                        <p className="text-xs">{start.date}</p>
-                      </div>
+                      <p className="text-sm">
+                        <span className="font-semibold">Mentor: </span>
+                        {project.mentor}
+                      </p>
                     </div>
-                    <p className="text-sm text-justify">{start.description}</p>
-
-                    <Link
-                      href={start.link}
-                      className="text-sm text-blue-700 hover:text-blue-500 items-center gap-1 flex text-black font-semibold"
-                    >
-                      Website{" "}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-4 h-4"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                        />
-                      </svg>
-                    </Link>
+                    <p className="text-sm text-justify">
+                      {project.description}
+                    </p>
                   </div>
-                </div>
-              ))}
+                )
+              )}
             </div>
-
             <div className="flex flex-col gap-5">
               <span className="font-semibold text-3xl">
                 University Projects

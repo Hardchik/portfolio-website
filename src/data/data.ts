@@ -117,7 +117,7 @@ export const conference = [
       "Optimization of Power Allocation Coeffiecient for two-user NOMA System",
     authors: "Hardik Chhabra, Shivam Ahuja, Aarti Jain",
     description:
-      "This paper talks about the use of metaheuristic algorithms to allocate power coefficient values to 2-user Non-orthogonal Multiple Access (NOMA) systems. Some algorithms that are used are Particle Swarm Optimization, Differential Evolution, Simulated Annealing, and Firefly Algorithm. Conference to take place on July 6th-8th, 2023 at IIT Delhi.",
+      "This paper delves into the utilization of metaheuristic algorithms for the allocation of power coefficient values in 2-user Non-orthogonal Multiple Access (NOMA) systems. Employing methods such as Particle Swarm Optimization, Differential Evolution, Simulated Annealing, and Firefly Algorithm, the research explores their efficacy in this context. Among these algorithms, Differential Evolution stands out as the most optimal choice due to its efficient time utilization and precise allocation of power coefficients. The paper was presented at a conference held on July 6th-8th, 2023, hosted by IIT Delhi, with plans for publication in the near future.",
     doi: "10.101/icccnt.7313414",
     confName:
       "14th International Conference on Computing, Communication and Networking Technologies (ICCCNT)",
@@ -132,8 +132,8 @@ export const journal = [
     title: "Helical Structured Optical Fiber",
     authors: "Hardik Chhabra, Nipun Raj, K.P.S. Rana, Vineet Kumar",
     description:
-      "A fiber optics with a helical design that has different density distribution (varying refractive index). Geometry and probability calculations, along with ideas to reduce transmission losses, are presented in this study.",
-    doi: "10.35248/2379-1764.23.11.399",
+      "This study introduces a novel helically designed fiber optics system characterized by varying refractive indices, resulting in a distinct density distribution. The fiber exhibits a helical shape and features an asymmetrical Gradient-Index (GRIN) profile. By employing ray optics principles and the Helmholtz wave equation, the paper establishes the feasibility of light propagation within this unique fiber configuration, supported by accompanying simulations. The practical application of this fiber lies in optical delay applications. Furthermore, the study presents geometric and probability calculations, along with innovative strategies to mitigate transmission losses, providing a comprehensive exploration of the potential and optimization of this helical fiber optics system.",
+    doi: "10.1098/rspa.2023.0146",
     journalName: "Proceedings A of Royal Society Journals",
     link: "",
     pdf: "",
@@ -144,7 +144,7 @@ export const journal = [
       "A comparative study of ARIMA and SARIMA models to forecast lockdown due to COVID-19",
     authors: "Hardik Chhabra, Anubhav Chauhan",
     description:
-      "A time-series analysis to forecast lockdown periods due to COVID-19 using Autoregressive Integrated Moving Average (ARIMA) and Seasonal-ARIMA (SARIMA) machine learning tactics to produce a machine learning model with fast learning capabilities that require fewer data computation for training. This model is trained using a dataset with generalized attributes. Thus, it can be used for diseases like novel coronavirus or its variants.",
+      "Conducting a time-series analysis, this study employs Autoregressive Integrated Moving Average (ARIMA) and Seasonal-ARIMA (SARIMA) machine learning methodologies to predict COVID-19-related lockdown periods. The focus lies in developing an efficient machine learning model characterized by rapid learning capabilities and reduced data computation requirements for training. The model is trained using a comprehensive dataset sourced from the World Health Organization (WHO), encompassing generalized attributes. Remarkably, the proposed model demonstrates the potential to achieve accurate lockdown predictions for over 170 nations, showcasing its robust forecasting capabilities in the context of global pandemic response.",
     doi: "10.35248/2379-1764.23.11.399",
     journalName: "Journal of Advanced Medicine and Biology",
     link: "",
@@ -155,7 +155,7 @@ export const journal = [
     title: "Effects of COVID-19 Lockdowns on Albedo in Delhi",
     authors: "Arnav Talwar, Rishabh Sabharwal, Hardik Chhabra, Harshit Kumar",
     description:
-      "This project is a part of group efforts to study and verify the effect of COVID-19 Lockdowns on the atmospheric albedo in Delhi. Remote sensing data from NASA’s Terra satellite as a part of the Earth Observing System has been used for this study.",
+      "This project constitutes a collaborative endeavor aimed at examining and confirming the impact of COVID-19 lockdowns on atmospheric albedo within the region of Delhi. Utilizing remote sensing data derived from NASA's Terra satellite as an integral component of the Earth Observing System, the study delves into the analysis of this information. Through meticulous data analysis, a significant correlation has been established between the Earth's atmospheric albedo and the quantity of pollutant particles prevalent within the atmosphere. This investigation sheds light on the intricate interplay between lockdown measures and atmospheric phenomena, yielding valuable insights into the broader environmental implications of pandemic-related restrictions.",
     doi: "10.21203/rs.3.rs-2552730/v1",
     journalName: "Preprint",
     link: "",
@@ -169,7 +169,7 @@ export const underReview = [
     title: "Performance enhancement of NOMA using smart repeater",
     authors: "Shivam Ahuja, Hardik Chhabra, Aarti Jain",
     description:
-      "This paper introduces a novel smart repeater technology to enhance the Security and the performance of the overall system. Moreover, the PageRank algorithm has been used to allocate the joint and shared power allocation coefficient to the NOMA network.",
+      "This paper introduces an innovative smart repeater technology aimed at augmenting both the security and performance aspects of the Power Domain-NOMA Communication System. Through thorough analysis, this approach has demonstrated superiority over existing Cooperative NOMA Systems, as evidenced by improved security outage probability and Bit Error Rate metrics. Notably, the utilization of the PageRank algorithm has enabled the allocation of joint and shared power allocation coefficients within the NOMA network, further contributing to the advancement of the proposed system.",
     journalName: "IEEE Journal of Communication & Networks",
   },
   {
@@ -177,14 +177,14 @@ export const underReview = [
       "Enhancement of Salp Swarm Optimization Algorithm using Machine Learning for General Engineering Designs",
     authors: "Shivam Ahuja, Hardik Chhabra, Aarti Jain",
     description:
-      "This paper introduces a novel methodology for enhancing the efficiency and efficacy of the swarm intelligence metaheuristics algorithm. Statistically significant results along with exploration and exploitation rates are determined.",
+      "This paper presents an innovative approach to improving the efficiency and effectiveness of SSA algorithm, swarm intelligence metaheuristics algorithms, by levaraging machine learning. The study includes a comprehensive analysis of statistically significant outcomes, and determining both exploration and exploitation rates. The findings indicate that the utilization of machine learning led to a notable enhancement in convergence rate, coupled with a substantial reduction of over 50% in computational resources.",
     journalName: "Elsevier Applied Soft Computing",
   },
   {
-    title: "Collsion Radar Antenna Array Design using machine learning",
+    title: "Collision Radar Antenna Array Design using machine learning",
     authors: "Hardik Chhabra, Anubhav Chauhan",
     description:
-      "Introduced a novel methodology for designing optimized collision avoidance antenna arrays using machine learning.",
+      "Introduced an innovative approach to crafting optimized collision avoidance antenna arrays through the integration of machine learning techniques. This array, comprising 8x8 microstrip antennas of varying dimensions, was strategically designed using a novel methodology. Specifically, the Tschebyshev distribution was harnessed to compute the ideal size for each antenna element, a value intricately linked to the respective distances from the feeding line of the array. This unique amalgamation of machine learning principles and mathematical distribution yielded an array configuration tailored for enhanced collision avoidance performance, showcasing a promising avenue for advanced antenna design.",
     journalName: "MDPI Journal on Sensors",
   },
 ];
@@ -209,6 +209,25 @@ export const startup = [
     description:
       "In the dynamic realm where medical and technical domains intersect, a startup has emerged, co-founded by myself and a dedicated team of four individuals. Our venture has forged a strategic partnership with the State Health Department, aimed at delivering innovative technical solutions to government hospitals. These solutions encompass the automation of registration processes and medical laboratory management, alongside the development of advanced machine learning models. Our objective is to empower doctors with enhanced patient diagnostics capabilities. This collaborative initiative exemplifies a convergence of expertise, propelling forward a synergy between healthcare and technology for improved medical services and patient care.",
     link: "https://beta-landing-diagnoos.web.app/",
+  },
+];
+
+export const academicProject = [
+  {
+    name: "mm-Wave attenuation due to rain using machine learning",
+    role: "Undergraduate Researcher",
+    date: "Nov 2022-Feb 2023",
+    description:
+      "The project aims to investigate mm-Wave attenuation due to rain using machine learning.  A theoretical framework is presented to comprehensively examine the attenuation of mm-waves attributed to factors like rain rate, rain size, and shape. Next, the development of machine-learning models geared towards predicting attenuation levels. To validate the reliability of the developed machine learning approach, the obtained results were cross-referenced with data sourced from Indian Meteorological Department (IMD), affirming the effectiveness of the proposed methodology.",
+    mentor: "Prof. (Dr.) Ashok Mittal",
+  },
+  {
+    name: "mm-Wave attenuation due to fog using machine learning",
+    role: "Undergraduate Researcher",
+    date: "Aug 2022-Nov 2023",
+    description:
+      "This project is dedicated to exploring the attenuation of mm-Waves caused by fog, employing the capabilities of machine learning. Initially, a comprehensive theoretical framework was devised to analyze the impact of fog density and visibility on mm-Wave attenuation. This investigation made use of real-time data sourced from the Indian Meteorological Department (IMD). Subsequently, the project transitioned into the development of precise machine-learning models, with a focus on predicting attenuation levels. These models incorporated real-time temperature data and geographical coordinates for accuracy. The validation process encompassed comparing the model predictions with data obtained from IMD, ultimately verifying the efficacy of the developed machine learning approach.",
+    mentor: "Prof. (Dr.) Ashok Mittal",
   },
 ];
 

@@ -26,14 +26,14 @@ export default function Home() {
               onClick={() =>
                 navigate.push("https://www.linkedin.com/in/hardik-chhabra/")
               }
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaLinkedin />
               LinkedIn
             </div>
             <div
               onClick={() => navigate.push("https://github.com/Hardchik")}
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaGithub />
               GitHub
@@ -42,7 +42,7 @@ export default function Home() {
               onClick={() =>
                 navigate.push("https://orcid.org/0000-0003-4943-833X")
               }
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaOrcid />
               ORCiD

@@ -29,14 +29,14 @@ const Page: NextPage = () => {
               onClick={() =>
                 navigate.push("https://www.linkedin.com/in/hardik-chhabra/")
               }
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaLinkedin />
               LinkedIn
             </div>
             <div
               onClick={() => navigate.push("https://github.com/Hardchik")}
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaGithub />
               GitHub
@@ -45,7 +45,7 @@ const Page: NextPage = () => {
               onClick={() =>
                 navigate.push("https://orcid.org/0000-0003-4943-833X")
               }
-              className="flex gap-1 items-center"
+              className="flex gap-1 items-center cursor-pointer"
             >
               <FaOrcid />
               ORCiD
@@ -67,10 +67,10 @@ const Page: NextPage = () => {
                       src={pub.image}
                       className={classNames(
                         pub.image.includes("ATBM")
-                          ? "w-[550px] h-[170px] lg:w-[470px] xl:w-[410px]"
+                          ? "w-[750px] h-[170px] lg:w-[670px] xl:w-[610px]"
                           : pub.image.includes("rspa")
-                          ? "w-[300px] h-[170px] lg:w-[250px] xl:w-[200px]"
-                          : "w-[300px] h-[130px] lg:w-[250px] xl:w-[200px]"
+                          ? "w-[750px] h-[170px] lg:w-[670px] xl:w-[610px]"
+                          : "w-[750px] h-[130px] lg:w-[670px] xl:w-[610px]"
                       )}
                       alt="..."
                     />
