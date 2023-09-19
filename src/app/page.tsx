@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { FaOrcid, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaOrcid, FaLinkedin, FaGithub, FaPenSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
             className="rounded-full w-36 h-36 hidden md:block"
             alt="..."
           />
-          <div className="flex md:flex-col md:flex justify-center md:justify-start gap-x-5">
+          <div className="flex md:flex-col md:flex justify-center md:justify-start gap-x-3">
             <Link
               href="mailto:chhabrahardik345@gmail.com"
               className="flex gap-1 items-center"
@@ -46,6 +46,13 @@ export default function Home() {
             >
               <FaOrcid />
               ORCiD
+            </div>
+            <div
+              onClick={() => navigate.push("https://blogsbyhc.netlify.app")}
+              className="flex gap-1 items-center cursor-pointer"
+            >
+              <FaPenSquare />
+              Blogs
             </div>
           </div>
         </div>
@@ -190,7 +197,7 @@ export default function Home() {
                   />
                   <textarea
                     className="px-1 w-full md:w-[70%] lg:w-[60%] xl:w-[40%] border border-black"
-                    placeholder="Your messsage"
+                    placeholder="Your message"
                   />
                   <button className="text-white w-full md:w-[70%] lg:w-[60%] xl:w-[40%] border border-black bg-black hover:text-black hover:bg-white">
                     Submit

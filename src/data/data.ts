@@ -6,7 +6,7 @@ export const patents = [
     I conceptualized and devised a mathematical model and design for a bridge, featuring an innovative and personally designed truss system. This award-winning project garnered the distinction of representing India at the International Science and Engineering Fair (ISEF). By integrating theoretical mathematical principles into the physical structure, the bridge's security factor was significantly enhanced by a factor of 100. The uniqueness of the project extended to its building block, the truss, and the mathematical framework.`,
     region: "India",
     image:
-      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/patents/DEHEC.jpg",
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/patents/pexels-pixabay-220762.jpg",
   },
   {
     application: "",
@@ -15,7 +15,7 @@ export const patents = [
       "I undertook a project focused on investigating the fundamental properties of light through a combination of experimental methods and the formulation of derived mathematical expressions. The nature of light was studied for refraction followed by diffraction. This study held potential applications, such as examining the characteristics of light emitted by celestial bodies, and involved the meticulous analysis and visualization of collected data using a dedicated software tool and graphical user interface (GUI). The distinctive nature of this software prompted its submission for a national patent. Notably, my work on this project garnered commendation and recognition, both during my time in high school and throughout my university experience.",
     region: "India",
     image:
-      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/patents/DIGSE.jpg",
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/patents/HD-wallpaper-rainbow-triangle-prism-wavy-light-abstract.jpg",
   },
 ];
 

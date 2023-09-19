@@ -3,7 +3,7 @@ import { conference, journal, underReview } from "@/data/data";
 import { NextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { FaOrcid, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaOrcid, FaLinkedin, FaGithub, FaPenSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { classNames } from "../classNames";
 
@@ -18,7 +18,7 @@ const Page: NextPage = () => {
             className="rounded-full w-36 h-36 hidden md:block"
             alt="..."
           />
-          <div className="flex md:flex-col md:flex justify-center md:justify-start gap-x-5">
+          <div className="flex md:flex-col md:flex justify-center md:justify-start gap-x-3">
             <Link
               href="mailto:chhabrahardik345@gmail.com"
               className="flex gap-1 items-center"
@@ -49,6 +49,13 @@ const Page: NextPage = () => {
             >
               <FaOrcid />
               ORCiD
+            </div>
+            <div
+              onClick={() => navigate.push("https://blogsbyhc.netlify.app")}
+              className="flex gap-1 items-center cursor-pointer"
+            >
+              <FaPenSquare />
+              Blogs
             </div>
           </div>
         </div>

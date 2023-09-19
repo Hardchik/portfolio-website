@@ -1,4 +1,5 @@
 "use client";
+import Awards from "@/components/awards/page";
 import { university } from "@/data/data";
 import { NextPage } from "next";
 import Link from "next/link";
@@ -8,6 +9,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaInstagramSquare,
+  FaPenSquare,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -22,7 +24,7 @@ const Page: NextPage = () => {
             className="rounded-full w-36 h-36 hidden md:block"
             alt="..."
           />
-          <div className="flex md:flex-col md:flex justify-center md:justify-start gap-x-5">
+          <div className="flex md:flex-col md:flex justify-center md:justify-start gap-x-3">
             <Link
               href="mailto:chhabrahardik345@gmail.com"
               className="flex gap-1 items-center"
@@ -54,13 +56,22 @@ const Page: NextPage = () => {
               <FaOrcid />
               ORCiD
             </div>
+            <div
+              onClick={() => navigate.push("https://blogsbyhc.netlify.app")}
+              className="flex gap-1 items-center cursor-pointer"
+            >
+              <FaPenSquare />
+              Blogs
+            </div>
           </div>
         </div>
 
         <div className="w-full flex max-[1000px]:justify-center">
           <div className="w-full flex flex-col max-[1000px]:items-center">
-            <span className="font-bold text-5xl">Life at NSUT</span>
+            <Awards />
+            <span className="mt-5 font-bold text-3xl">Life at NSUT</span>
             <div className="w-[70%] max-[1000px]:w-full">
+              <hr />
               <div className="flex flex-col w-full gap-4">
                 {university.map(
                   (uni: (typeof university)[0], index: number) => (

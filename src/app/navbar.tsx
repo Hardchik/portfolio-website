@@ -72,15 +72,6 @@ const Navbar = () => {
             EXPERIENCE
           </Link>
           <Link
-            href={"/awards"}
-            className={classNames(
-              pathname === "/awards" ? "border-black" : "border-white",
-              "border-b"
-            )}
-          >
-            AWARDS
-          </Link>
-          <Link
             href={"/university"}
             className={classNames(
               pathname === "/university" ? "border-black" : "border-white",
@@ -89,7 +80,6 @@ const Navbar = () => {
           >
             UNIVERSITY
           </Link>
-          <Link href={"https://blogsbyhc.netlify.app"}>BLOGS</Link>
         </div>
         <div className="min-[850px]:hidden flex">
           <div className="self-end" onClick={() => setOpen(true)}>
@@ -185,15 +175,6 @@ const Navbar = () => {
                   EXPERIENCE
                 </Link>
                 <Link
-                  href={"/awards"}
-                  className={classNames(
-                    pathname === "/awards" ? "font-semibold" : "",
-                    "text-xl"
-                  )}
-                >
-                  AWARDS
-                </Link>
-                <Link
                   href={"/university"}
                   className={classNames(
                     pathname === "/university" ? "font-semibold" : "",
@@ -201,12 +182,6 @@ const Navbar = () => {
                   )}
                 >
                   UNIVERSITY
-                </Link>
-                <Link
-                  className="text-xl"
-                  href={"https://blogsbyhc.netlify.app"}
-                >
-                  BLOGS
                 </Link>
               </div>
             </div>
