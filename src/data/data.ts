@@ -114,13 +114,29 @@ export const university = [
 export const conference = [
   {
     title:
+      "Quantum Cryptography for Superpositioned Discrete Variable Quantum States as Continuous Signal using Homodyne Detection",
+    authors: "Hardik Chhabra, Abhinav Kumar, Monika Aggarwal, K.P.S. Rana",
+    description:
+      "This paper presents a novel hybrid QKD protocol which mitigates the performance of DV-QKD and CV-QKD protocol. Investigation over the security of this protocol has been presented and compared against existing QKD protocols.",
+    status: "Accepted",
+    doi: null,
+    confName:
+      "2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul",
+    link: "",
+    pdf: "",
+    image:
+      "https://2024.ieeeicassp.org/wp-content/uploads/sites/517/SPS_Logo_Color_RGB.jpg",
+  },
+  {
+    title:
       "Optimization of Power Allocation Coeffiecient for two-user NOMA System",
     authors: "Hardik Chhabra, Shivam Ahuja, Aarti Jain",
     description:
       "This paper delves into the utilization of metaheuristic algorithms for the allocation of power coefficient values in 2-user Non-orthogonal Multiple Access (NOMA) systems. Employing methods such as Particle Swarm Optimization, Differential Evolution, Simulated Annealing, and Firefly Algorithm, the research explores their efficacy in this context. Among these algorithms, Differential Evolution stands out as the most optimal choice due to its efficient time utilization and precise allocation of power coefficients. The paper was presented at a conference held on July 6th-8th, 2023, hosted by IIT Delhi, with plans for publication in the near future.",
+    status: null,
     doi: "10.101/icccnt.7313414",
     confName:
-      "14th International Conference on Computing, Communication and Networking Technologies (ICCCNT)",
+      "14th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Delhi",
     link: "",
     pdf: "",
     image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/conf1.JPG",

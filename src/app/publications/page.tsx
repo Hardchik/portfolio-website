@@ -141,22 +141,31 @@ const Page: NextPage = () => {
                       <b>Authors:</b> {conf.authors}
                     </p>
                     <p className="text-sm text-justify">{conf.description}</p>
-                    <p className="text-sm font-semibold">doi: {conf.doi}</p>
+                    {conf.doi && (
+                      <p className="text-sm font-semibold">doi: {conf.doi}</p>
+                    )}
+                    {conf.status && (
+                      <p className="text-sm font-semibold">
+                        Status: {conf.status}
+                      </p>
+                    )}
                   </div>
-                  <div className="flex md:flex-col self-end md:self-center gap-3">
-                    <button
-                      onClick={() => navigate.push(conf.pdf)}
-                      className="border border-black py-1 px-2 hover:bg-black hover:text-white"
-                    >
-                      Read
-                    </button>
-                    <button
-                      onClick={() => navigate.push(conf.link)}
-                      className="border border-black bg-black text-white py-1 px-2 hover:bg-white hover:text-black"
-                    >
-                      Visit
-                    </button>
-                  </div>
+                  {conf.doi != null && (
+                    <div className="flex md:flex-col self-end md:self-center gap-3">
+                      <button
+                        onClick={() => navigate.push(conf.pdf)}
+                        className="border border-black py-1 px-2 hover:bg-black hover:text-white"
+                      >
+                        Read
+                      </button>
+                      <button
+                        onClick={() => navigate.push(conf.link)}
+                        className="border border-black bg-black text-white py-1 px-2 hover:bg-white hover:text-black"
+                      >
+                        Visit
+                      </button>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
