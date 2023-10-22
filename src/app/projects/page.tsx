@@ -87,6 +87,7 @@ const Page: NextPage = () => {
                     <p className="text-sm text-justify">
                       {project.description}
                     </p>
+                    <p className="text-sm"><span className="font-semibold">Status: </span>{project.status}</p>
                   </div>
                 )
               )}

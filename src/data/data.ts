@@ -133,8 +133,8 @@ export const conference = [
     authors: "Hardik Chhabra, Shivam Ahuja, Aarti Jain",
     description:
       "This paper delves into the utilization of metaheuristic algorithms for the allocation of power coefficient values in 2-user Non-orthogonal Multiple Access (NOMA) systems. Employing methods such as Particle Swarm Optimization, Differential Evolution, Simulated Annealing, and Firefly Algorithm, the research explores their efficacy in this context. Among these algorithms, Differential Evolution stands out as the most optimal choice due to its efficient time utilization and precise allocation of power coefficients. The paper was presented at a conference held on July 6th-8th, 2023, hosted by IIT Delhi, with plans for publication in the near future.",
-    status: null,
-    doi: "10.101/icccnt.7313414",
+    status: "To be published",
+    doi: null,
     confName:
       "14th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Delhi",
     link: "",
@@ -145,14 +145,14 @@ export const conference = [
 
 export const journal = [
   {
-    title: "Helical Structured Optical Fiber",
+    title: "An asymmetric graded indexed helical structured optical fibre for enhanced optical delays",
     authors: "Hardik Chhabra, Nipun Raj, K.P.S. Rana, Vineet Kumar",
     description:
       "This study introduces a novel helically designed fiber optics system characterized by varying refractive indices, resulting in a distinct density distribution. The fiber exhibits a helical shape and features an asymmetrical Gradient-Index (GRIN) profile. By employing ray optics principles and the Helmholtz wave equation, the paper establishes the feasibility of light propagation within this unique fiber configuration, supported by accompanying simulations. The practical application of this fiber lies in optical delay applications. Furthermore, the study presents geometric and probability calculations, along with innovative strategies to mitigate transmission losses, providing a comprehensive exploration of the potential and optimization of this helical fiber optics system.",
     doi: "10.1098/rspa.2023.0146",
     journalName: "Proceedings A of Royal Society Journals",
-    link: "",
-    pdf: "",
+    link: "https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2023.0146",
+    pdf: "https://royalsocietypublishing.org/doi/epdf/10.1098/rspa.2023.0146#purchaseArea",
     image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/rspa.jpg",
   },
   {
@@ -163,8 +163,8 @@ export const journal = [
       "Conducting a time-series analysis, this study employs Autoregressive Integrated Moving Average (ARIMA) and Seasonal-ARIMA (SARIMA) machine learning methodologies to predict COVID-19-related lockdown periods. The focus lies in developing an efficient machine learning model characterized by rapid learning capabilities and reduced data computation requirements for training. The model is trained using a comprehensive dataset sourced from the World Health Organization (WHO), encompassing generalized attributes. Remarkably, the proposed model demonstrates the potential to achieve accurate lockdown predictions for over 170 nations, showcasing its robust forecasting capabilities in the context of global pandemic response.",
     doi: "10.35248/2379-1764.23.11.399",
     journalName: "Journal of Advanced Medicine and Biology",
-    link: "",
-    pdf: "",
+    link: "https://www.longdom.org/open-access/a-comparative-study-of-arima-and-sarima-models-to-forecast-lockdowns-due-to-sarscov2-98209.html",
+    pdf: "https://www.longdom.org/open-access/a-comparative-study-of-arima-and-sarima-models-to-forecast-lockdowns-due-to-sarscov2.pdf",
     image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/ATBM.jpg",
   },
   {
@@ -174,8 +174,8 @@ export const journal = [
       "This project constitutes a collaborative endeavor aimed at examining and confirming the impact of COVID-19 lockdowns on atmospheric albedo within the region of Delhi. Utilizing remote sensing data derived from NASA's Terra satellite as an integral component of the Earth Observing System, the study delves into the analysis of this information. Through meticulous data analysis, a significant correlation has been established between the Earth's atmospheric albedo and the quantity of pollutant particles prevalent within the atmosphere. This investigation sheds light on the intricate interplay between lockdown measures and atmospheric phenomena, yielding valuable insights into the broader environmental implications of pandemic-related restrictions.",
     doi: "10.21203/rs.3.rs-2552730/v1",
     journalName: "Preprint",
-    link: "",
-    pdf: "",
+    link: "https://europepmc.org/article/ppr/ppr617857",
+    pdf: "https://assets.researchsquare.com/files/rs-2552730/v1/1747c532-9cd7-4e6c-88b4-610db04159e5.pdf?c=1678087800",
     image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/rs.jpg",
   },
 ];
@@ -236,6 +236,7 @@ export const academicProject = [
     description:
       "The project aims to investigate mm-Wave attenuation due to rain using machine learning.  A theoretical framework is presented to comprehensively examine the attenuation of mm-waves attributed to factors like rain rate, rain size, and shape. Next, the development of machine-learning models geared towards predicting attenuation levels. To validate the reliability of the developed machine learning approach, the obtained results were cross-referenced with data sourced from Indian Meteorological Department (IMD), affirming the effectiveness of the proposed methodology.",
     mentor: "Prof. (Dr.) Ashok Mittal",
+    status: "Planning for a publication, manuscript in preparation"
   },
   {
     name: "mm-Wave attenuation due to fog using machine learning",
@@ -244,6 +245,7 @@ export const academicProject = [
     description:
       "This project is dedicated to exploring the attenuation of mm-Waves caused by fog, employing the capabilities of machine learning. Initially, a comprehensive theoretical framework was devised to analyze the impact of fog density and visibility on mm-Wave attenuation. This investigation made use of real-time data sourced from the Indian Meteorological Department (IMD). Subsequently, the project transitioned into the development of precise machine-learning models, with a focus on predicting attenuation levels. These models incorporated real-time temperature data and geographical coordinates for accuracy. The validation process encompassed comparing the model predictions with data obtained from IMD, ultimately verifying the efficacy of the developed machine learning approach.",
     mentor: "Prof. (Dr.) Ashok Mittal",
+    status: "Planning for a publication, manuscript in preparation"
   },
 ];
 
