@@ -195,10 +195,11 @@ export const underReview = [
     authors: "Shivam Ahuja, Hardik Chhabra, Aarti Jain",
     description:
       "This paper presents an innovative approach to improving the efficiency and effectiveness of SSA algorithm, swarm intelligence metaheuristics algorithms, by levaraging machine learning. The study includes a comprehensive analysis of statistically significant outcomes, and determining both exploration and exploitation rates. The findings indicate that the utilization of machine learning led to a notable enhancement in convergence rate, coupled with a substantial reduction of over 50% in computational resources.",
-    journalName: "Elsevier Applied Soft Computing",
+    journalName: "Neural Computing and Applications Springer Journal",
   },
   {
-    title: "Collision Radar Antenna Array Design using machine learning",
+    title:
+      "A Novel Machine Learning Approach to Design a Series Fed Millimetre Wave Microstrip Antenna Array for Automotive Collision Avoidance Radar",
     authors: "Hardik Chhabra, Anubhav Chauhan",
     description:
       "Introduced an innovative approach to crafting optimized collision avoidance antenna arrays through the integration of machine learning techniques. This array, comprising 8x8 microstrip antennas of varying dimensions, was strategically designed using a novel methodology. Specifically, the Tschebyshev distribution was harnessed to compute the ideal size for each antenna element, a value intricately linked to the respective distances from the feeding line of the array. This unique amalgamation of machine learning principles and mathematical distribution yielded an array configuration tailored for enhanced collision avoidance performance, showcasing a promising avenue for advanced antenna design.",
