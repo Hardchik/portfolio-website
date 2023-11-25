@@ -118,7 +118,7 @@ export const conference = [
     authors: "Hardik Chhabra, Abhinav Kumar, Monika Aggarwal, K.P.S. Rana",
     description:
       "This paper presents a novel hybrid QKD protocol which mitigates the performance of DV-QKD and CV-QKD protocol. Investigation over the security of this protocol has been presented and compared against existing QKD protocols.",
-    status: "Accepted",
+    status: "Under Review",
     doi: null,
     confName:
       "2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul",
@@ -130,22 +130,23 @@ export const conference = [
   {
     title:
       "Optimization of Power Allocation Coeffiecient for two-user NOMA System",
-    authors: "Hardik Chhabra, Shivam Ahuja, Aarti Jain",
+    authors: "Shivam Ahuja, Hardik Chhabra, Aarti Jain",
     description:
       "This paper delves into the utilization of metaheuristic algorithms for the allocation of power coefficient values in 2-user Non-orthogonal Multiple Access (NOMA) systems. Employing methods such as Particle Swarm Optimization, Differential Evolution, Simulated Annealing, and Firefly Algorithm, the research explores their efficacy in this context. Among these algorithms, Differential Evolution stands out as the most optimal choice due to its efficient time utilization and precise allocation of power coefficients. The paper was presented at a conference held on July 6th-8th, 2023, hosted by IIT Delhi, with plans for publication in the near future.",
-    status: "To be published",
-    doi: null,
+    status: null,
+    doi: "10.1109/ICCCNT56998.2023.10306871",
     confName:
       "14th International Conference on Computing, Communication and Networking Technologies (ICCCNT), Delhi",
-    link: "",
-    pdf: "",
+    link: "https://ieeexplore.ieee.org/document/10306871",
+    pdf: "https://ieeexplore.ieee.org/document/10306871",
     image: "https://te-bucket-test.s3.ap-south-1.amazonaws.com/conf1.JPG",
   },
 ];
 
 export const journal = [
   {
-    title: "An asymmetric graded indexed helical structured optical fibre for enhanced optical delays",
+    title:
+      "An asymmetric graded indexed helical structured optical fibre for enhanced optical delays",
     authors: "Hardik Chhabra, Nipun Raj, K.P.S. Rana, Vineet Kumar",
     description:
       "This study introduces a novel helically designed fiber optics system characterized by varying refractive indices, resulting in a distinct density distribution. The fiber exhibits a helical shape and features an asymmetrical Gradient-Index (GRIN) profile. By employing ray optics principles and the Helmholtz wave equation, the paper establishes the feasibility of light propagation within this unique fiber configuration, supported by accompanying simulations. The practical application of this fiber lies in optical delay applications. Furthermore, the study presents geometric and probability calculations, along with innovative strategies to mitigate transmission losses, providing a comprehensive exploration of the potential and optimization of this helical fiber optics system.",
@@ -236,7 +237,7 @@ export const academicProject = [
     description:
       "The project aims to investigate mm-Wave attenuation due to rain using machine learning.  A theoretical framework is presented to comprehensively examine the attenuation of mm-waves attributed to factors like rain rate, rain size, and shape. Next, the development of machine-learning models geared towards predicting attenuation levels. To validate the reliability of the developed machine learning approach, the obtained results were cross-referenced with data sourced from Indian Meteorological Department (IMD), affirming the effectiveness of the proposed methodology.",
     mentor: "Prof. (Dr.) Ashok Mittal",
-    status: "Planning for a publication, manuscript in preparation"
+    status: "Planning for a publication, manuscript in preparation",
   },
   {
     name: "mm-Wave attenuation due to fog using machine learning",
@@ -245,7 +246,7 @@ export const academicProject = [
     description:
       "This project is dedicated to exploring the attenuation of mm-Waves caused by fog, employing the capabilities of machine learning. Initially, a comprehensive theoretical framework was devised to analyze the impact of fog density and visibility on mm-Wave attenuation. This investigation made use of real-time data sourced from the Indian Meteorological Department (IMD). Subsequently, the project transitioned into the development of precise machine-learning models, with a focus on predicting attenuation levels. These models incorporated real-time temperature data and geographical coordinates for accuracy. The validation process encompassed comparing the model predictions with data obtained from IMD, ultimately verifying the efficacy of the developed machine learning approach.",
     mentor: "Prof. (Dr.) Ashok Mittal",
-    status: "Planning for a publication, manuscript in preparation"
+    status: "Planning for a publication, manuscript in preparation",
   },
 ];
 
