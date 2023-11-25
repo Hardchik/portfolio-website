@@ -187,7 +187,7 @@ export const underReview = [
     authors: "Shivam Ahuja, Hardik Chhabra, Aarti Jain",
     description:
       "This paper introduces an innovative smart repeater technology aimed at augmenting both the security and performance aspects of the Power Domain-NOMA Communication System. Through thorough analysis, this approach has demonstrated superiority over existing Cooperative NOMA Systems, as evidenced by improved security outage probability and Bit Error Rate metrics. Notably, the utilization of the PageRank algorithm has enabled the allocation of joint and shared power allocation coefficients within the NOMA network, further contributing to the advancement of the proposed system.",
-    journalName: "IEEE Journal of Communication & Networks",
+    journalName: "IEEE Journal of Communication & Networks ",
   },
   {
     title:
