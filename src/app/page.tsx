@@ -94,7 +94,7 @@ export default function Home() {
                 </p>
                 <img
                   className="w-48 h-48 p-5"
-                  src="https://media.licdn.com/dms/image/C4D03AQGJlZ1CWd5cvg/profile-displayphoto-shrink_800_800/0/1641390433017?e=1696464000&v=beta&t=vahmEr7MJuFPVxE5051heDi_q7oL6Y4mCUrFPMmoBDc"
+                  src="https://te-bucket-test.s3.ap-south-1.amazonaws.com/logos/profile.jpg"
                   alt="..."
                 />
               </div>

@@ -22,7 +22,8 @@ export const patents = [
 export const experience = [
   {
     name: "Mercor.io",
-    image: "https://mercor.io/logo.png",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/logos/mercor-logo.png",
     role: "Software Developer Intern",
     location: "Remote",
     date: "March 2023-May 2023",
@@ -44,7 +45,7 @@ export const experience = [
   {
     name: "Mployee.me",
     image:
-      "https://www.mployee.me/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FMployee.me%20White%20Logo.680b3844.ico&w=3840&q=75",
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/logos/mployee.me-logo.webp",
     role: "Software Developer Intern",
     location: "Delhi",
     date: "Dec 2021-May 2022",
@@ -220,7 +221,8 @@ export const startup = [
   },
   {
     name: "Diagnoos",
-    image: "https://micro-lab.s3.eu-north-1.amazonaws.com/dia_logo.png",
+    image:
+      "https://te-bucket-test.s3.ap-south-1.amazonaws.com/logos/favicon.png",
     position: "Co-founder",
     location: "Delhi",
     date: "Jan 2023-Present",

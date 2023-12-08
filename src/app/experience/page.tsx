@@ -73,7 +73,7 @@ const Page: NextPage = () => {
                         <div className="flex items-center gap-1">
                           <img
                             className={classNames(
-                              start.image.includes("dia_logo")
+                              start.image.includes("favicon")
                                 ? "w-8"
                                 : "w-16 sm:w-24"
                             )}
